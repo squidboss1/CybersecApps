@@ -18,3 +18,4 @@ for i in range(1, 256):
 
     if response_packet:
         print(f"IP: {response_packet[ARP].psrc} | MAC: {response_packet[ARP].hwsrc}")
+
